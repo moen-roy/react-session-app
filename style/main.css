@@ -1,0 +1,19 @@
+
+
+.component{
+      border: solid red;
+}
+      
+.componentC{
+    display: flex;  
+    
+}
+.componentE{
+    margin: 200px;
+    background-color: grey;
+    padding-right: 300px;
+    border-radius: 50px;
+
+    
+
+}
