@@ -19,6 +19,7 @@ import State from '../Hooks/State/SimpleState'
 
 import SimpleState2 from '../Hooks/State/SimpleState2'
 import FormState from '../Hooks/State/FormState'
+import SimpleEffect from '../Hooks/Effect/SimpleEfects'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <FinalComponents />
@@ -27,6 +28,7 @@ createRoot(document.getElementById('root')).render(
     <State /> 
     <SimpleState2 />
     <FormState />
+    <SimpleEffect />
     {/* <div>
   <h1>Hello!</h1>
   <p>Welcome to my application. How can i be of assistant?</p>
