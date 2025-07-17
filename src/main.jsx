@@ -19,7 +19,7 @@ import State from '../Hooks/State/SimpleState'
 
 import SimpleState2 from '../Hooks/State/SimpleState2'
 import FormState from '../Hooks/State/FormState'
-import SimpleEffect from '../Hooks/Effect/SimpleEfects'
+import SimpleEffect from '../Hooks/Effect/SimplreEfects'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <FinalComponents />
