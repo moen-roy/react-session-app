@@ -11,6 +11,7 @@ import FinalComponents from '../MiniProject'
 // combined export
 import Second, {C1,C3} from './Combined'
 
+
 import '../style/main.css'
 
 import Buttons from '../Events/Btns'
@@ -20,8 +21,10 @@ import State from '../Hooks/State/SimpleState'
 import SimpleState2 from '../Hooks/State/SimpleState2'
 import FormState from '../Hooks/State/FormState'
 import SimpleEffect from '../Hooks/Effect/SimplreEfects'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <AllData />
     <FinalComponents />
     <Buttons />
     <Form />
@@ -29,7 +32,7 @@ createRoot(document.getElementById('root')).render(
     <SimpleState2 />
     <FormState />
     <SimpleEffect />
-    {/* <div>
+    <div>
   <h1>Hello!</h1>
   <p>Welcome to my application. How can i be of assistant?</p>
   <label> Type here please </label>
@@ -46,7 +49,7 @@ createRoot(document.getElementById('root')).render(
     <DisplayCon3 />
       <C1 />
     <Second />
-      <C3 /> */}
+      <C3 />
      </StrictMode>,
 );
 
